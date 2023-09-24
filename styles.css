@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.animate-fade-slide {
+    animation: fadeInLeft 1s ease;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav li a:hover {
+    color: #2980b9;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-section h2 {
+    color: #333; /* Dark grey */
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-section textarea {
+    resize: vertical;
+}
+
+.contact-section button[type="submit"] {
+    padding: 15px 30px;
+    background-color: #ffcc00; /* Golden */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #e0b300; /* Slightly darker golden */
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 200px 0; /* Increased padding for a larger background area */
+    background-image: url('nuts.jpg'); /* Replace with your image path */
+    background-size: cover;
+    color: #fff; /* Text color to make it readable over the image */
+    border-radius: 10px;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+/* Your existing CSS styles */
+
+.about-section {
+    padding: 20px;
+}
+
+.flag-list {
+    display: flex;
+    align-items: center;
+}
+
+.flag-list img {
+    width: 50px; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the spacing between flags */
+}
+
+.animate-fade-slide {
+    opacity: 1;
+    animation: fadeIn 1s ease forwards, slideDown 1s ease forwards;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 140px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #2574a9;
+}
+
+.description-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.products-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 45%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    color: #2980b9;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.product-details {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-card strong {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #3498db;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color:

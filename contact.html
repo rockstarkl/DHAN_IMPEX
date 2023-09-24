@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHAN IXPEX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="company-name">
+            <img src="LOGO.PNG" alt="Company Logo" class="logo">
+            <h1 class="animate-fade-slide">DHAN IXPEX</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us using the form below.</p>
+
+            <form action="sendmail.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-section">
+        <h3>About Us</h3>
+        <p>We are a leading supplier of high-quality groundnut products, providing our customers with the finest groundnut oil and roasted groundnuts.</p>
+    </div>
+    
+    <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p><strong>Email:</strong> info@dhanimpex.com</p>
+        <p><strong>Phone:</strong> +91 8469629029</p>
+    </div>
+
+    <p>&copy; 2023 Groundnut Products</p>
+	</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
